@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "512820293566",
+    "firebase_url": "https://chatangira.firebaseio.com",
+    "project_id": "chatangira",
+    "storage_bucket": "chatangira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512820293566:android:10a89b4393000622",
+        "android_client_info": {
+          "package_name": "com.chat.angira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512820293566-b1qa5r6h3bk3bl5v5a1viqkh8du956tb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.angira",
+            "certificate_hash": "56f221ae47d3f4cd829adffc2b474e90dfad6d3d"
+          }
+        },
+        {
+          "client_id": "512820293566-9qo98645q735dvm7os79e7qmk797gkpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL1sFW_3CT5bVzqv3JNp_oUjcNZYBc36I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512820293566-9qo98645q735dvm7os79e7qmk797gkpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
