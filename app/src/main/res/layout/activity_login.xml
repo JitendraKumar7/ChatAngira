@@ -104,10 +104,10 @@
                     android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:background="@drawable/bt_shape"
+                    android:onClick="clickLogin"
                     android:stateListAnimator="@drawable/state_list_animator_z"
                     android:text="@string/go"
-                    android:textColor="#d3d3d3"
-                    android:onClick="clickLogin"/>
+                    android:textColor="#d3d3d3" />
             </RelativeLayout>
 
             <TextView
@@ -115,10 +115,10 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="5dp"
+                android:onClick="clickResetPassword"
                 android:text="@string/forgot_your_password"
                 android:textColor="#9a9a9a"
-                android:textSize="12sp"
-                android:onClick="clickResetPassword"/>
+                android:textSize="12sp" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
 
@@ -134,5 +134,14 @@
         android:src="@drawable/ic_signup"
         android:transitionName="loginFab"
         app:fabSize="normal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Login With Mobile"
+        android:textSize="20dp" />
 
 </RelativeLayout>
